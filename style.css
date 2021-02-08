@@ -74,7 +74,26 @@ section {
 }
 
 /* BONUS #2 */
-#two :nth-child(1){order: 2;}
+/* #two :nth-child(1){order: 2;}
 #two :nth-child(2){order: 3;}
-#two :nth-child(3){order: 1;}
+#two :nth-child(3){order: 1;} */
 
+#orange {
+  order: 2;
+}
+
+#purple {
+  order: 3;
+}
+
+#brown {
+  order: 1;
+}
+ /* BONUS #3 */
+ #brown {
+   align-self: flex-start;
+ }
+
+ #purple {
+   align-self: flex-end;
+ }
